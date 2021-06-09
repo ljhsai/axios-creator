@@ -1,4 +1,4 @@
-# axios-ex
+# axios-creator
 
 [![npm version](https://img.shields.io/npm/v/axios.svg?style=flat-square)](https://www.npmjs.org/package/axios)
 [![CDNJS](https://img.shields.io/cdnjs/v/axios.svg?style=flat-square)](https://cdnjs.com/libraries/axios)
@@ -56,6 +56,7 @@ Promise based HTTP client for the browser and node.js
 - Cancel requests
 - Automatic transforms for JSON data
 - Client side support for protecting against [XSRF](http://en.wikipedia.org/wiki/Cross-site_request_forgery)
+- Supports cocos creator
 
 ## Browser Support
 
@@ -70,31 +71,19 @@ Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | 11 ✔ |
 Using npm:
 
 ```bash
-$ npm install axios-ex
+$ npm install axios-creator
 ```
 
 Using bower:
 
 ```bash
-$ bower install axios-ex
+$ bower install axios-creator
 ```
 
 Using yarn:
 
 ```bash
-$ yarn add axios-ex
-```
-
-Using jsDelivr CDN:
-
-```html
-<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-```
-
-Using unpkg CDN:
-
-```html
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+$ yarn add axios-creator
 ```
 
 ## Example
@@ -103,7 +92,7 @@ Using unpkg CDN:
 In order to gain the TypeScript typings (for intellisense / autocomplete) while using CommonJS imports with `require()` use the following approach:
 
 ```js
-const axios = require('axios-ex').default;
+const axios = require('axios-creator').default;
 
 // axios.<method> will now provide autocomplete and parameter typings
 ```
@@ -111,7 +100,7 @@ const axios = require('axios-ex').default;
 Performing a `GET` request
 
 ```js
-const axios = require('axios-ex');
+const axios = require('axios-creator');
 
 // Make a request for a user with a given ID
 axios.get('/user?ID=12345')
