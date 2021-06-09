@@ -1,4 +1,4 @@
-# axios
+# axios-ex
 
 [![npm version](https://img.shields.io/npm/v/axios.svg?style=flat-square)](https://www.npmjs.org/package/axios)
 [![CDNJS](https://img.shields.io/cdnjs/v/axios.svg?style=flat-square)](https://cdnjs.com/libraries/axios)
@@ -70,19 +70,19 @@ Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | 11 ✔ |
 Using npm:
 
 ```bash
-$ npm install axios
+$ npm install axios-ex
 ```
 
 Using bower:
 
 ```bash
-$ bower install axios
+$ bower install axios-ex
 ```
 
 Using yarn:
 
 ```bash
-$ yarn add axios
+$ yarn add axios-ex
 ```
 
 Using jsDelivr CDN:
@@ -103,7 +103,7 @@ Using unpkg CDN:
 In order to gain the TypeScript typings (for intellisense / autocomplete) while using CommonJS imports with `require()` use the following approach:
 
 ```js
-const axios = require('axios').default;
+const axios = require('axios-ex').default;
 
 // axios.<method> will now provide autocomplete and parameter typings
 ```
@@ -111,7 +111,7 @@ const axios = require('axios').default;
 Performing a `GET` request
 
 ```js
-const axios = require('axios');
+const axios = require('axios-ex');
 
 // Make a request for a user with a given ID
 axios.get('/user?ID=12345')
